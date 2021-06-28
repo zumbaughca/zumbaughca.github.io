@@ -1,0 +1,102 @@
+
+body {
+    background-color: #E8F6EF;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 65pt;
+    font-family: 'Rye';
+    color: #4C4C6D;
+}
+
+h2 {
+    font-size: 32.5pt;
+    color: #4C4C6D;
+}
+
+h3 {
+    color: #4C4C6D;
+}
+
+img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    float: left;
+}
+
+.project-div {
+    margin-left: 5%;
+}
+
+.project-div div {
+    margin-left: 5%;
+}
+
+.navbar {
+    background-color: #4C4C6D;
+}
+
+.card-container {
+    height: 220px;
+}
+
+.circle {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.circle::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0px;
+    height: 142px;
+    left: 50%;
+    top: 100%;
+    border: 1px solid;
+}
+
+.circle-last::before {
+    display: none;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    left: 10%;
+}
+
+.card-container:hover > .circle {
+    background-color: #e0e0e0;
+}
+
+.card-body > p {
+    display: inline-block;
+}
+
+@media (max-width: 500px) {
+    .circle::before {
+        display: none;
+    }
+
+    .circle {
+        margin: auto;
+        left: calc(50% - 40px);
+    }
+
+    .card-container {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
