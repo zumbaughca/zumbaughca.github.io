@@ -27,6 +27,15 @@ img {
     float: left;
 }
 
+form {
+    width: 75%;
+    margin: auto;
+}
+
+form label, input, textarea {
+    margin: 10px;
+}
+
 .project-div {
     margin-left: 5%;
 }
@@ -74,15 +83,30 @@ img {
 .card {
     position: relative;
     display: inline-block;
+    height: 75%;
     left: 10%;
-}
-
-.card-container:hover > .circle {
-    background-color: #e0e0e0;
 }
 
 .card-body > p {
     display: inline-block;
+}
+
+.message-text-box {
+    display: block;
+    height: 400px;
+    width: 100%;
+}
+
+.btn-contact {
+    display: block;
+    background-color: #4C4C6D;
+    color: white;
+    margin: auto;
+}
+
+.row-space {
+
+    height: 100px;
 }
 
 @media (max-width: 500px) {
@@ -91,12 +115,18 @@ img {
     }
 
     .circle {
-        margin: auto;
+        display: block;
+        margin-bottom: 10px;
         left: calc(50% - 40px);
     }
 
-    .card-container {
+    .card {
         display: block;
+        height: 50%;
+    }
+
+    .card-container {
         margin-bottom: 10px;
+        height: 250px;
     }
 }
