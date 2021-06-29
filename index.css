@@ -36,6 +36,24 @@ form label, input, textarea {
     margin: 10px;
 }
 
+.social-media-image {
+    width: 32px;
+    height: 32px;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.language-image {
+    border-radius: 0%;
+    height: 75px;
+    width: 75px;
+}
+
 .project-div {
     margin-left: 5%;
 }
@@ -46,6 +64,10 @@ form label, input, textarea {
 
 .navbar {
     background-color: #4C4C6D;
+}
+
+.container > .row {
+    margin-bottom: 50px;
 }
 
 .card-container {
@@ -89,6 +111,11 @@ form label, input, textarea {
 
 .card-body > p {
     display: inline-block;
+}
+
+.contact-label {
+    font-size: large;
+    font-weight: bold;
 }
 
 .message-text-box {
