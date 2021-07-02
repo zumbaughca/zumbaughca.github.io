@@ -56,10 +56,16 @@ form label, input, textarea {
 
 .project-div {
     margin-left: 5%;
+    margin-bottom: 10%;
 }
 
 .project-div div {
     margin-left: 5%;
+}
+
+.project-div img {
+    margin-right: 5%;
+    margin-bottom: 2%;
 }
 
 .navbar {
